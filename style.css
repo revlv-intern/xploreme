@@ -1,0 +1,285 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+/**
+ * Helper classes
+ */
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right
+}
+.clearfix {
+  overflow: hidden;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/**
+ * Header
+ */
+header {
+  padding: 30px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/**
+ * Nav
+ */
+nav {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-top: 15px;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+nav ul li a.active {
+  color: #81B722;
+}
+nav ul li.link-action a {
+  padding: 15px;
+  color: #fff;
+  background: #81B722;
+  font-size: 18px;
+}
+nav ul li.user-action a {
+  padding: 5px 10px;
+  background: #81B722;
+  color: #fff;
+}
+nav ul li.user-action img {
+  border: 2px solid #eaeaea;
+}
+nav ul li.user-action span {
+  font-weight: normal;
+  vertical-align: top;
+  text-transform:none;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+nav ul li a {
+  display: block;
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
+/**
+ * Slides
+ */
+.slide-gallery {
+  height: 659px;
+  position: relative;
+}
+.slide {
+  height: 659px;
+  width: 100%;
+  position: absolute;
+}
+.slide-content {
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  position: absolute;
+}
+.slide-content ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.slide-content ul li {
+  display: inline-block;
+}
+.slide-content ul li span {
+  border-radius: 50%;
+  background-color: #81B722;
+  display: inline-block;
+  width: 50px;
+  line-height: 3;
+  text-align: center;
+  height: 50px;
+}
+.slide-content .slide-description {
+  width: 65%;
+  padding-top: 20px;
+  display: inline-block;
+}
+.slide-content .slide-description h1 {
+  margin-bottom: 5px;
+}
+.slide-content .slide-description p {
+  font-weight: normal;
+  margin-bottom: 15px;
+  font-family: 'Open Sans';
+}
+.slide-content {
+  padding-bottom: 30px;
+}
+.slide-content .slide-control {
+  vertical-align: top;
+  width: 32%;
+  float: right;
+}
+.slide-content .panel {
+  background: rgba(74,74,74,0.9);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.slide-content .panel .panel-header {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 10px;
+}
+.slide-content .slide-control input {
+  width: 168px
+}
+
+/**
+ * Travel heroes
+ */
+.slide-content .travel-heroes {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.travel-heroes li {
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+.travel-heroes li img {
+  border: 2px solid #ccc;
+}
+
+/**
+ * Buttons
+ */
+.btn {
+  font-family: 'Montserrat';
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  background: #81B722;
+}
+.input-group {
+  overflow: hidden;
+  display: block;
+}
+.input-group input {
+  vertical-align: top;
+  display:inline-block;
+  font-size:0.9em;
+  font-weight:400;
+  border:0;
+  width:250px;
+  height: 46px;
+  padding-left: 15px;
+  margin:0;
+}
+.input-group .btn:disabled {
+  background: #BDC3C7
+}
+
+/**
+ * Feature Panel
+ */
+.feature-panel {
+  overflow: hidden;
+  color: #222;
+}
+.feature-container {
+  background: #F4F4F4;
+  width: 430px;
+  padding: 50px;
+  padding-right: 50%;
+  margin-left: 50%;
+}
+.feature-container h3, p{
+  margin-bottom: 30px;
+  line-height: 1.6
+}
+.feature-container p {
+  color: #666;
+}
+.feature-panel.left .feature-container {
+  margin-left: -50%;
+  padding-right: 50px;
+  padding-left: 50%;
+}
+
+/**
+ * Subs
+ */
+.subscription {
+  background: url('resources/subscription-bg.jpg');
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+.subscription h3 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.subscription .description {
+  width: 700px;
+  color: #ccc;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/**
+ * Footer
+ */
+footer {
+  padding: 50px;
+  background: #524B3F;
+  color: #fff;
+}
+footer p {
+  float: left;
+}
+footer ul {
+  vertical-align: top;
+  float: right;
+}
+footer ul li {
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+}
+footer ul li a {
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  display: block;
+  line-height: 2.2;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-decoration: none;
+}
